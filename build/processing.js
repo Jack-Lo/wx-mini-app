@@ -20,7 +20,7 @@ Processing.prototype = {
 
     clearInterval(_t.timer)
 
-    stream.write('\n' + cnt + '\n\n')
+    stream.write(cnt + '\n\n')
 
     var timer = _t.timer = setInterval(() => {
       if (len + 1 > maxLen) {
